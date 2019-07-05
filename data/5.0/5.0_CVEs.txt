@@ -12,6 +12,9 @@ CVE-2016-8660: Fix unknown
 CVE-2017-13693: Fix unknown
 CVE-2017-13694: Fix unknown
 CVE-2018-1121: Fix unknown
+CVE-2018-12126: Fixed with 5.0.16
+CVE-2018-12127: Fixed with 5.0.16
+CVE-2018-12130: Fixed with 5.0.16
 CVE-2018-12928: Fix unknown
 CVE-2018-12929: Fix unknown
 CVE-2018-12930: Fix unknown
@@ -19,12 +22,47 @@ CVE-2018-12931: Fix unknown
 CVE-2018-17977: Fix unknown
 CVE-2019-10124: Fixed with 5.0.4
 CVE-2019-10125: Fixed with 5.0.5
+CVE-2019-10126: Fix not seen in stream
+CVE-2019-10142: Fixed with 5.0.17
+CVE-2019-11091: Fixed with 5.0.16
+CVE-2019-11191: Fix unknown
+CVE-2019-11477: Fix not seen in stream
+CVE-2019-11478: Fix not seen in stream
+CVE-2019-11479: Fix not seen in stream
+CVE-2019-11486: Fixed with 5.0.8
+CVE-2019-11487: Fixed with 5.0.12
+CVE-2019-11599: Fixed with 5.0.10
+CVE-2019-11683: Fixed with 5.0.13
+CVE-2019-11810: Fixed with 5.0.7
+CVE-2019-11811: Fixed with 5.0.4
+CVE-2019-11815: Fixed with 5.0.8
+CVE-2019-11833: Fixed with 5.0.18
+CVE-2019-11884: Fixed with 5.0.15
+CVE-2019-12378: Fix not seen in stream
+CVE-2019-12379: Fix unknown
+CVE-2019-12380: Fix not seen in stream
+CVE-2019-12381: Fix not seen in stream
+CVE-2019-12382: Fix unknown
+CVE-2019-12455: Fix unknown
+CVE-2019-12456: Fix unknown
+CVE-2019-12614: Fix unknown
+CVE-2019-12615: Fix not seen in stream
+CVE-2019-12817: Fix not seen in stream
+CVE-2019-12818: Fixed with 5.0
+CVE-2019-12881: Fix unknown
+CVE-2019-12984: Fix not seen in stream
+CVE-2019-1999: Fix not seen in stream
+CVE-2019-2101: Fixed with 5.0.2
 CVE-2019-3459: Fixed with 5.0.6
 CVE-2019-3460: Fixed with 5.0.6
-CVE-2019-3874: Fix unknown
-CVE-2019-3882: Fix not seen in stream
-CVE-2019-3887: Fix not seen in stream
-CVE-2019-3892: Fix unknown
+CVE-2019-3846: Fix not seen in stream
+CVE-2019-3874: Fix not seen in stream
+CVE-2019-3882: Fixed with 5.0.11
+CVE-2019-3887: Fixed with 5.0.8
+CVE-2019-3892: Fixed with 5.0.10
+CVE-2019-3900: Fix not seen in stream
 CVE-2019-8980: Fixed with 5.0.1
 CVE-2019-9213: Fixed with 5.0
-CVE-2019-9857: Fix not seen in stream
+CVE-2019-9500: Fixed with 5.0.20
+CVE-2019-9503: Fixed with 5.0.20
+CVE-2019-9857: Fixed with 5.0.9
