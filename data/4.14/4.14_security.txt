@@ -342,6 +342,7 @@ CVEs fixed in 4.14.111:
   CVE-2019-11810: 90fca247abf6adc1ee6eef9b3de199448c8a4ad6 scsi: megaraid_sas: return error when create DMA pool failed
 
 CVEs fixed in 4.14.112:
+  CVE-2019-10639: adbb8bdd392db14dc80ad1ac29f8f1d37ab57a62 netns: provide pure entropy for net_hash_mix()
   CVE-2019-11486: 429977fd9f7153607230a6040ee12510a525e930 tty: mark Siemens R3964 line discipline as BROKEN
   CVE-2019-11815: c8a88799e632045399af886a1b1a5205e5d49897 net: rds: force to destroy connection if t_sock is NULL in rds_tcp_kill_sock().
 
@@ -376,6 +377,7 @@ CVEs fixed in 4.14.123:
   CVE-2019-9503: 7c9290b56da477b54fab5dc48e1d21cfb8dc46f4 brcmfmac: add subtype check for event handling in data path
 
 CVEs fixed in 4.14.124:
+  CVE-2019-10638: e10789acbe6a76b304f45cbc8bb77a926ae4f201 inet: switch IP ID generator to siphash
   CVE-2019-1999: c2a035d7822ac8d2870cd6dbaadc1ab407713b83 binder: fix race between munmap() and direct reclaim
 
 CVEs fixed in 4.14.127:
@@ -385,6 +387,14 @@ CVEs fixed in 4.14.127:
 
 CVEs fixed in 4.14.130:
   CVE-2019-12615: b1013624a8adb9caa83b4c9f487778c7b51467a0 mdesc: fix a missing-check bug in get_vdev_port_node_info()
+
+CVEs fixed in 4.14.133:
+  CVE-2019-13272: bf71ef9655d25e8b275ec6ed649b6bd719231ddc ptrace: Fix ->ptracer_cred handling for PTRACE_TRACEME
+  CVE-2019-3900: ae446749492d8bd23f1d0b81adba16e5739dc740 vhost_net: fix possible infinite loop
+
+CVEs fixed in 4.14.134:
+  CVE-2019-10126: b1459fb34061337efbf0d47a3ba6208f2f59829d mwifiex: Fix heap overflow in mwifiex_uap_parse_tail_ies()
+  CVE-2019-3846: d50f6b58d7ad30ad8e96c0bbc3e5ecfe9b91ba77 mwifiex: Fix possible buffer overflows at parsing bss descriptor
 
 Outstanding CVEs:
   CVE-2005-3660: (unk)  
@@ -419,18 +429,17 @@ Outstanding CVEs:
   CVE-2018-6554: (unk) staging: irda: remove the irda network stack and drivers 
   CVE-2018-6555: (unk) staging: irda: remove the irda network stack and drivers 
   CVE-2018-8043: (unk) net: phy: mdio-bcm-unimac: fix potential NULL dereference in unimac_mdio_probe() 
-  CVE-2019-10126: (unk) mwifiex: Fix heap overflow in mwifiex_uap_parse_tail_ies() 
   CVE-2019-11191: (unk)  
   CVE-2019-12378: (unk) ipv6_sockglue: Fix a missing-check bug in ip6_ra_control() 
-  CVE-2019-12379: (unk)  
+  CVE-2019-12379: (unk) consolemap: Fix a memory leaking bug in drivers/tty/vt/consolemap.c 
   CVE-2019-12380: (unk) efi/x86/Add missing error handling to old_memmap 1:1 mapping code 
   CVE-2019-12381: (unk) ip_sockglue: Fix missing-check bug in ip_ra_control() 
-  CVE-2019-12382: (unk)  
-  CVE-2019-12455: (unk)  
+  CVE-2019-12382: (unk) drm/edid: Fix a missing-check bug in drm_load_edid_firmware() 
+  CVE-2019-12455: (unk) clk-sunxi: fix a missing-check bug in sunxi_divs_clk_setup() 
   CVE-2019-12456: (unk)  
-  CVE-2019-12614: (unk)  
+  CVE-2019-12614: (unk) powerpc/pseries/dlpar: Fix a missing check in dlpar_parse_cc_property() 
   CVE-2019-12881: (unk)  
-  CVE-2019-3846: (unk) mwifiex: Fix possible buffer overflows at parsing bss descriptor 
+  CVE-2019-13631: (unk) Input: gtco - bounds check collection indent level 
+  CVE-2019-13648: (unk)  
   CVE-2019-3874: (unk) sctp: implement memory accounting on tx path 
-  CVE-2019-3900: (unk) vhost_net: fix possible infinite loop 
   CVE-2019-5489: (unk) Change mincore() to count "mapped" pages rather than "cached" pages 
