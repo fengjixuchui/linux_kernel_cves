@@ -64,6 +64,8 @@ CVE-2017-18216: Fixed with 4.14.57
 CVE-2017-18224: Fixed with 4.14.57
 CVE-2017-18232: Fix not seen in stream
 CVE-2017-18344: Fixed with 4.14.8
+CVE-2017-18551: Fixed with 4.14.15
+CVE-2017-18595: Fixed with 4.14.11
 CVE-2017-5715: Fix not seen in stream
 CVE-2017-5753: Fix not seen in stream
 CVE-2017-5754: Fixed with 4.14.18
@@ -110,6 +112,7 @@ CVE-2018-11508: Fixed with 4.14.41
 CVE-2018-12126: Fixed with 4.14.119
 CVE-2018-12127: Fixed with 4.14.119
 CVE-2018-12130: Fixed with 4.14.119
+CVE-2018-12207: Fixed with 4.14.154
 CVE-2018-12232: Fixed with 4.14.52
 CVE-2018-12233: Fixed with 4.14.62
 CVE-2018-12896: Fixed with 4.14.74
@@ -165,12 +168,17 @@ CVE-2018-19824: Fixed with 4.14.88
 CVE-2018-19854: Fixed with 4.14.82
 CVE-2018-19985: Fixed with 4.14.91
 CVE-2018-20169: Fixed with 4.14.88
-CVE-2018-20449: Fixed with 4.14.108
+CVE-2018-20449: Fix not seen in stream
 CVE-2018-20510: Fixed with 4.14.22
 CVE-2018-20511: Fixed with 4.14.73
-CVE-2018-20669: Fix not seen in stream
+CVE-2018-20669: Fixed with 4.14.185
 CVE-2018-20784: Fixed with 4.14.93
 CVE-2018-20836: Fixed with 4.14.118
+CVE-2018-20855: Fix not seen in stream
+CVE-2018-20856: Fixed with 4.14.69
+CVE-2018-20961: Fixed with 4.14.36
+CVE-2018-20976: Fixed with 4.14.150
+CVE-2018-21008: Fixed with 4.14.166
 CVE-2018-3620: Fixed with 4.14.63
 CVE-2018-3639: Fixed with 4.14.43
 CVE-2018-3646: Fixed with 4.14.63
@@ -185,17 +193,17 @@ CVE-2018-5750: Fixed with 4.14.20
 CVE-2018-5803: Fixed with 4.14.25
 CVE-2018-5814: Fixed with 4.14.43
 CVE-2018-5848: Fixed with 4.14.86
-CVE-2018-5953: Fixed with 4.14.45
-CVE-2018-5995: Fixed with 4.14.45
+CVE-2018-5953: Fix not seen in stream
+CVE-2018-5995: Fix not seen in stream
 CVE-2018-6412: Fixed with 4.14.45
-CVE-2018-6554: Fix not seen in stream
-CVE-2018-6555: Fix not seen in stream
+CVE-2018-6554: Fixed with 4.14.70
+CVE-2018-6555: Fixed with 4.14.70
 CVE-2018-6927: Fixed with 4.14.15
-CVE-2018-7273: Fixed with 4.14.18
+CVE-2018-7273: Fix not seen in stream
 CVE-2018-7492: Fixed with 4.14.7
 CVE-2018-7566: Fixed with 4.14.21
 CVE-2018-7740: Fixed with 4.14.31
-CVE-2018-7754: Fixed with 4.14.45
+CVE-2018-7754: Fix not seen in stream
 CVE-2018-7755: Fixed with 4.14.74
 CVE-2018-7757: Fixed with 4.14.34
 CVE-2018-7995: Fixed with 4.14.27
@@ -210,14 +218,21 @@ CVE-2018-9415: Fixed with 4.14.39
 CVE-2018-9465: Fixed with 4.14.11
 CVE-2018-9516: Fixed with 4.14.55
 CVE-2018-9518: Fixed with 4.14.45
+CVE-2019-0136: Fixed with 4.14.130
+CVE-2019-0154: Fixed with 4.14.154
+CVE-2019-0155: Fixed with 4.14.154
 CVE-2019-10124: Fixed with 4.14.108
 CVE-2019-10126: Fixed with 4.14.134
 CVE-2019-10142: Fixed with 4.14.120
+CVE-2019-10207: Fixed with 4.14.136
+CVE-2019-10220: Fix not seen in stream
 CVE-2019-10638: Fixed with 4.14.124
 CVE-2019-10639: Fixed with 4.14.112
 CVE-2019-11085: Fixed with 4.14.96
 CVE-2019-11091: Fixed with 4.14.119
-CVE-2019-11191: Fix unknown
+CVE-2019-11135: Fixed with 4.14.154
+CVE-2019-11191: Fix not seen in stream
+CVE-2019-1125: Fixed with 4.14.137
 CVE-2019-11477: Fixed with 4.14.127
 CVE-2019-11478: Fixed with 4.14.127
 CVE-2019-11479: Fixed with 4.14.127
@@ -232,21 +247,170 @@ CVE-2019-12378: Fix not seen in stream
 CVE-2019-12379: Fix not seen in stream
 CVE-2019-12380: Fix not seen in stream
 CVE-2019-12381: Fix not seen in stream
-CVE-2019-12382: Fix not seen in stream
+CVE-2019-12382: Fixed with 4.14.135
 CVE-2019-12455: Fix not seen in stream
 CVE-2019-12456: Fix unknown
-CVE-2019-12614: Fix not seen in stream
+CVE-2019-12614: Fixed with 4.14.158
 CVE-2019-12615: Fixed with 4.14.130
 CVE-2019-12818: Fixed with 4.14.106
 CVE-2019-12819: Fixed with 4.14.107
 CVE-2019-12881: Fix unknown
 CVE-2019-13272: Fixed with 4.14.133
-CVE-2019-13631: Fix not seen in stream
-CVE-2019-13648: Fix unknown
+CVE-2019-13631: Fixed with 4.14.135
+CVE-2019-13648: Fixed with 4.14.135
+CVE-2019-14283: Fixed with 4.14.135
+CVE-2019-14284: Fixed with 4.14.135
+CVE-2019-14615: Fixed with 4.14.165
+CVE-2019-14763: Fixed with 4.14.36
+CVE-2019-14814: Fixed with 4.14.146
+CVE-2019-14815: Fixed with 4.14.146
+CVE-2019-14816: Fixed with 4.14.146
+CVE-2019-14821: Fixed with 4.14.146
+CVE-2019-14835: Fixed with 4.14.144
+CVE-2019-14895: Fixed with 4.14.165
+CVE-2019-14896: Fixed with 4.14.169
+CVE-2019-14897: Fixed with 4.14.169
+CVE-2019-14901: Fixed with 4.14.164
+CVE-2019-15030: Fixed with 4.14.144
+CVE-2019-15090: Fixed with 4.14.128
+CVE-2019-15098: Fixed with 4.14.152
+CVE-2019-15099: Fixed with 4.14.152
+CVE-2019-15117: Fixed with 4.14.142
+CVE-2019-15118: Fixed with 4.14.142
+CVE-2019-15211: Fixed with 4.14.136
+CVE-2019-15212: Fixed with 4.14.124
+CVE-2019-15214: Fixed with 4.14.114
+CVE-2019-15215: Fixed with 4.14.136
+CVE-2019-15216: Fixed with 4.14.117
+CVE-2019-15217: Fixed with 4.14.166
+CVE-2019-15218: Fixed with 4.14.124
+CVE-2019-15219: Fixed with 4.14.124
+CVE-2019-15220: Fixed with 4.14.134
+CVE-2019-15221: Fixed with 4.14.133
+CVE-2019-15222: Fix not seen in stream
+CVE-2019-15223: Fix not seen in stream
+CVE-2019-15239: Fixed with 4.14.32
+CVE-2019-15290: Fix unknown
+CVE-2019-15291: Fixed with 4.14.157
+CVE-2019-15292: Fixed with 4.14.113
+CVE-2019-15505: Fixed with 4.14.146
+CVE-2019-15538: Fixed with 4.14.141
+CVE-2019-15666: Fixed with 4.14.122
+CVE-2019-15794: Fix unknown
+CVE-2019-15807: Fixed with 4.14.129
+CVE-2019-15902: Fixed with 4.14.142
+CVE-2019-15916: Fixed with 4.14.106
+CVE-2019-15917: Fixed with 4.14.109
+CVE-2019-15918: Fixed with 4.14.166
+CVE-2019-15921: Fixed with 4.14.110
+CVE-2019-15924: Fixed with 4.14.115
+CVE-2019-15925: Fixed with 4.14.135
+CVE-2019-15926: Fixed with 4.14.135
+CVE-2019-15927: Fixed with 4.14.93
+CVE-2019-16089: Fix unknown
+CVE-2019-16230: Fix not seen in stream
+CVE-2019-16231: Fixed with 4.14.154
+CVE-2019-16232: Fixed with 4.14.161
+CVE-2019-16233: Fixed with 4.14.172
+CVE-2019-16234: Fixed with 4.14.173
+CVE-2019-16413: Fixed with 4.14.108
+CVE-2019-16746: Fixed with 4.14.149
+CVE-2019-16994: Fixed with 4.14.106
+CVE-2019-16995: Fixed with 4.14.107
+CVE-2019-17052: Fixed with 4.14.147
+CVE-2019-17053: Fixed with 4.14.147
+CVE-2019-17054: Fixed with 4.14.147
+CVE-2019-17055: Fixed with 4.14.147
+CVE-2019-17056: Fixed with 4.14.147
+CVE-2019-17075: Fixed with 4.14.151
+CVE-2019-17133: Fixed with 4.14.151
+CVE-2019-17351: Fixed with 4.14.135
+CVE-2019-17666: Fixed with 4.14.152
+CVE-2019-18282: Fixed with 4.14.153
+CVE-2019-18660: Fixed with 4.14.157
+CVE-2019-18675: Fixed with 4.14.49
+CVE-2019-18680: Fix unknown
+CVE-2019-18683: Fixed with 4.14.157
+CVE-2019-18786: Fixed with 4.14.161
+CVE-2019-18806: Fixed with 4.14.148
+CVE-2019-18808: Fix not seen in stream
+CVE-2019-18809: Fixed with 4.14.163
+CVE-2019-18885: Fix not seen in stream
+CVE-2019-19036: Fix not seen in stream
+CVE-2019-19039: Fix not seen in stream
+CVE-2019-19045: Fixed with 4.14.154
+CVE-2019-19049: Fixed with 4.14.153
+CVE-2019-19052: Fixed with 4.14.154
+CVE-2019-19054: Fix not seen in stream
+CVE-2019-19056: Fixed with 4.14.165
+CVE-2019-19057: Fixed with 4.14.161
+CVE-2019-19058: Fixed with 4.14.166
+CVE-2019-19060: Fix not seen in stream
+CVE-2019-19061: Fix not seen in stream
+CVE-2019-19062: Fixed with 4.14.159
+CVE-2019-19063: Fixed with 4.14.161
+CVE-2019-19065: Fixed with 4.14.152
+CVE-2019-19066: Fixed with 4.14.165
+CVE-2019-19067: Fix not seen in stream
+CVE-2019-19068: Fixed with 4.14.165
+CVE-2019-19071: Fixed with 4.14.159
+CVE-2019-19073: Fix not seen in stream
+CVE-2019-19074: Fix not seen in stream
+CVE-2019-19075: Fixed with 4.14.151
+CVE-2019-19078: Fixed with 4.14-rc1
+CVE-2019-19227: Fixed with 4.14.159
+CVE-2019-19319: Fixed with 4.14.178
+CVE-2019-19332: Fixed with 4.14.159
+CVE-2019-19377: Fix not seen in stream
+CVE-2019-19378: Fix unknown
+CVE-2019-19447: Fixed with 4.14.159
+CVE-2019-19448: Fix unknown
+CVE-2019-19449: Fix unknown
+CVE-2019-19462: Fixed with 4.14.184
+CVE-2019-19523: Fixed with 4.14.150
+CVE-2019-19524: Fixed with 4.14.155
+CVE-2019-19525: Fixed with 4.14.149
+CVE-2019-19526: Fixed with 4.14.152
+CVE-2019-19527: Fixed with 4.14.140
+CVE-2019-19528: Fixed with 4.14.150
+CVE-2019-19529: Fixed with 4.14.154
+CVE-2019-19530: Fixed with 4.14.140
+CVE-2019-19531: Fixed with 4.14.139
+CVE-2019-19532: Fixed with 4.14.152
+CVE-2019-19533: Fixed with 4.14.147
+CVE-2019-19534: Fixed with 4.14.154
+CVE-2019-19535: Fixed with 4.14.139
+CVE-2019-19536: Fixed with 4.14.139
+CVE-2019-19537: Fixed with 4.14.140
+CVE-2019-19543: Fixed with 4.14.123
+CVE-2019-19767: Fixed with 4.14.158
+CVE-2019-19768: Fixed with 4.14.181
+CVE-2019-19770: Fix unknown
+CVE-2019-19813: Fix not seen in stream
+CVE-2019-19814: Fix unknown
+CVE-2019-19815: Fix not seen in stream
+CVE-2019-19816: Fix not seen in stream
+CVE-2019-19922: Fixed with 4.14.154
+CVE-2019-19965: Fixed with 4.14.163
+CVE-2019-19966: Fixed with 4.14.123
 CVE-2019-1999: Fixed with 4.14.124
+CVE-2019-20054: Fixed with 4.14.110
+CVE-2019-20095: Fixed with 4.14.123
+CVE-2019-20096: Fixed with 4.14.166
 CVE-2019-2024: Fixed with 4.14.86
 CVE-2019-2025: Fixed with 4.14.86
+CVE-2019-20636: Fixed with 4.14.165
+CVE-2019-20794: Fix unknown
+CVE-2019-20806: Fixed with 4.14.168
+CVE-2019-20810: Fixed with 4.14.185
+CVE-2019-20811: Fixed with 4.14.110
+CVE-2019-20812: Fixed with 4.14.161
 CVE-2019-2101: Fixed with 4.14.106
+CVE-2019-2181: Fix not seen in stream
+CVE-2019-2182: Fixed with 4.14.166
+CVE-2019-2213: Fixed with 4.14.136
+CVE-2019-2215: Fixed with 4.14.17
+CVE-2019-3016: Fix not seen in stream
 CVE-2019-3459: Fixed with 4.14.110
 CVE-2019-3460: Fixed with 4.14.110
 CVE-2019-3701: Fixed with 4.14.95
@@ -255,13 +419,76 @@ CVE-2019-3874: Fix not seen in stream
 CVE-2019-3882: Fixed with 4.14.115
 CVE-2019-3892: Fixed with 4.14.114
 CVE-2019-3900: Fixed with 4.14.133
+CVE-2019-5108: Fixed with 4.14.166
 CVE-2019-5489: Fix not seen in stream
 CVE-2019-6133: Fixed with 4.14.93
 CVE-2019-6974: Fixed with 4.14.99
 CVE-2019-7221: Fixed with 4.14.99
 CVE-2019-7222: Fixed with 4.14.99
+CVE-2019-7308: Fixed with 4.14.113
 CVE-2019-8912: Fixed with 4.14.103
 CVE-2019-8980: Fixed with 4.14.106
 CVE-2019-9213: Fixed with 4.14.105
+CVE-2019-9245: Fixed with 4.14.181
+CVE-2019-9444: Fix not seen in stream
+CVE-2019-9445: Fix not seen in stream
+CVE-2019-9453: Fixed with 4.14.181
+CVE-2019-9454: Fixed with 4.14.15
+CVE-2019-9455: Fixed with 4.14.108
+CVE-2019-9456: Fixed with 4.14.28
+CVE-2019-9458: Fixed with 4.14.74
+CVE-2019-9466: Fixed with 4.14.123
 CVE-2019-9500: Fixed with 4.14.123
 CVE-2019-9503: Fixed with 4.14.123
+CVE-2019-9506: Fixed with 4.14.133
+CVE-2020-0009: Fixed with 4.14.172
+CVE-2020-0030: Fixed with 4.14.22
+CVE-2020-0067: Fixed with 4.14.181
+CVE-2020-0543: Fixed with 4.14.184
+CVE-2020-10135: Fix unknown
+CVE-2020-10690: Fixed with 4.14.162
+CVE-2020-10708: Fix unknown
+CVE-2020-10711: Fixed with 4.14.181
+CVE-2020-10720: Fixed with 4.14.124
+CVE-2020-10732: Fixed with 4.14.183
+CVE-2020-10751: Fixed with 4.14.179
+CVE-2020-10757: Fixed with 4.14.184
+CVE-2020-10769: Fixed with 4.14.95
+CVE-2020-10773: Fix unknown
+CVE-2020-10774: Fix unknown
+CVE-2020-10781: Fix unknown
+CVE-2020-10942: Fixed with 4.14.173
+CVE-2020-11494: Fixed with 4.14.176
+CVE-2020-11565: Fixed with 4.14.176
+CVE-2020-11608: Fixed with 4.14.175
+CVE-2020-11609: Fixed with 4.14.175
+CVE-2020-11668: Fixed with 4.14.175
+CVE-2020-11669: Fixed with 4.14.177
+CVE-2020-11725: Fix unknown
+CVE-2020-12114: Fix not seen in stream
+CVE-2020-12464: Fixed with 4.14.178
+CVE-2020-12652: Fixed with 4.14.167
+CVE-2020-12653: Fixed with 4.14.171
+CVE-2020-12654: Fixed with 4.14.171
+CVE-2020-12655: Fixed with 4.14.187
+CVE-2020-12656: Fix unknown
+CVE-2020-12657: Fixed with 4.14.177
+CVE-2020-12769: Fixed with 4.14.170
+CVE-2020-12770: Fixed with 4.14.181
+CVE-2020-12771: Fixed with 4.14.186
+CVE-2020-12826: Fixed with 4.14.177
+CVE-2020-12888: Fix not seen in stream
+CVE-2020-13143: Fixed with 4.14.181
+CVE-2020-13974: Fixed with 4.14.184
+CVE-2020-14304: Fix unknown
+CVE-2020-14416: Fixed with 4.14.169
+CVE-2020-15393: Fix not seen in stream
+CVE-2020-1749: Fixed with 4.14.181
+CVE-2020-2732: Fixed with 4.14.172
+CVE-2020-7053: Fix not seen in stream
+CVE-2020-8647: Fixed with 4.14.173
+CVE-2020-8648: Fixed with 4.14.173
+CVE-2020-8649: Fixed with 4.14.173
+CVE-2020-8832: Fix not seen in stream
+CVE-2020-8834: Fix not seen in stream
+CVE-2020-9383: Fixed with 4.14.172
