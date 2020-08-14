@@ -294,6 +294,7 @@ CVEs fixed in 4.19.82:
   CVE-2019-19065: 962cff4f3f89acf54b6fb418e7ff386b720b0fd6 RDMA/hfi1: Prevent memory leak in sdma_init
   CVE-2019-19526: 24aaf7f4528f0df0f29667d3921f4a63aa7b806c NFC: pn533: fix use-after-free and memleaks
   CVE-2019-19532: 8a01c4b908cf0a5367d3309c1c0d4e9be655ce00 HID: Fix assumption that devices have inputs
+  CVE-2020-10773: ced8cb0230d070274cd26bec818dd7c67514d586 s390/cmm: fix information leak in cmm_timeout_handler()
 
 CVEs fixed in 4.19.83:
   CVE-2019-16233: 3ee6a8bdae81a09c1dc9c27d3a50e6b1b6a24676 scsi: qla2xxx: fix a potential NULL pointer dereference
@@ -363,6 +364,7 @@ CVEs fixed in 4.19.96:
   CVE-2019-19066: 486f51201528126bec2c647fa9d4216fc4fda91b scsi: bfa: release allocated memory in case of error
   CVE-2019-19068: 0e27512c5d0bc2c3d33c1e7f73a8983015c82b83 rtl8xxxu: prevent leaking urb
   CVE-2019-20636: f5b9bfbe94a042a2e3806efa4c6e1b6ddb4292c4 Input: add safety guards to input_set_keycode()
+  CVE-2020-0305: ec576895d61356a2cab096e1ca23bf7cc765e5b2 chardev: Avoid potential use-after-free in 'chrdev_open()'
 
 CVEs fixed in 4.19.97:
   CVE-2019-15217: 0648766cb7d336e5932278c316aef6aac35d60ab media: usb:zr364xx:Fix KASAN:null-ptr-deref Read in zr364xx_vidioc_querycap
@@ -438,6 +440,7 @@ CVEs fixed in 4.19.119:
   CVE-2020-1749: 5dd6835278454a7c7a045462253625de7c16b13e net: ipv6_stub: use ip6_dst_lookup_flow instead of ip6_dst_lookup
 
 CVEs fixed in 4.19.121:
+  CVE-2020-0255: 23075857ad192731fd9edcce3b5cd5db93602c26 selinux: properly handle multiple messages in selinux_netlink_send()
   CVE-2020-10751: 23075857ad192731fd9edcce3b5cd5db93602c26 selinux: properly handle multiple messages in selinux_netlink_send()
 
 CVEs fixed in 4.19.124:
@@ -446,6 +449,7 @@ CVEs fixed in 4.19.124:
   CVE-2020-13143: a105bb549252e3e8bd9db0bdd81cdd6a853e4238 USB: gadget: fix illegal array access in binding with UDC
 
 CVEs fixed in 4.19.125:
+  CVE-2019-18814: f1738ae012a106c6c8fa7d33ed47fb478d9d3c75 apparmor: Fix use-after-free in aa_audit_rule_init
   CVE-2020-12768: 008708152ebb229c29e065135599984fa9c4a51c KVM: SVM: Fix potential memory leak in svm_cpu_init()
 
 CVEs fixed in 4.19.126:
@@ -470,6 +474,29 @@ CVEs fixed in 4.19.130:
 
 CVEs fixed in 4.19.131:
   CVE-2020-12655: 135eccd83909e75389a5754577b0336bbd0939ef xfs: add agf freeblocks verify in xfs_agf_verify
+
+CVEs fixed in 4.19.132:
+  CVE-2020-15393: 7b0f1f89a0dd6e257367eddc840179e85195ca18 usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect
+
+CVEs fixed in 4.19.134:
+  CVE-2020-10781: 81a91bf266dd7f2dd56fc3472b7bb54348ac62c7 Revert "zram: convert remaining CLASS_ATTR() to CLASS_ATTR_RO()"
+  CVE-2020-14356: 0505cc4c908f46a4d22c4994dbbe7bc489d0c52d cgroup: fix cgroup_sk_alloc() for sk_clone_lock()
+
+CVEs fixed in 4.19.137:
+  CVE-2019-18808: 167edeeb034f65f57790ff70b1af84a501274d15 crypto: ccp - Release all allocated memory if sha type is invalid
+  CVE-2019-19054: 17271f33fd8811b364ae3c54671566434d46d3eb media: rc: prevent memory leak in cx23888_ir_probe
+  CVE-2019-19061: c57c213538156bff971aa352d9d7749196dfbfd8 iio: imu: adis16400: fix memory leak
+  CVE-2019-19067: e15f8a9b0046418295d09db24c1ec306c80d013b drm/amdgpu: fix multiple memory leaks in acp_hw_init
+  CVE-2019-19072: 7deb2dcb8963812742ed08420cfa4e23bbeda074 tracing: Have error path in predicate_parse() free its allocated memory
+  CVE-2019-19073: 5b8464dc9a6e81a16481549c77d0d341041e425e ath9k_htc: release allocated buffer if timed out
+  CVE-2019-19074: e0cf3ebfcf93dbce123b8bef00f549712efe1135 ath9k: release allocated buffer if timed out
+  CVE-2019-19082: 60e1b411bf0fd9fda2d2de7f45dc3b1d9960b85e drm/amd/display: prevent memory leak
+  CVE-2019-19813: 4e986ab36ed11ecf21de9b5aab0e46ac3342df93 btrfs: inode: Verify inode mode to avoid NULL pointer dereference
+  CVE-2019-19816: 4e986ab36ed11ecf21de9b5aab0e46ac3342df93 btrfs: inode: Verify inode mode to avoid NULL pointer dereference
+  CVE-2019-3874: 9a84bb13816fe3b361a75e10ee9821ab68aa36f5 sctp: implement memory accounting on tx path
+
+CVEs fixed in 4.19.138:
+  CVE-2020-16166: 29204c846894d73108f87e78aea4757a8ec52c74 random32: update the net random state on interrupt and activity
 
 Outstanding CVEs:
   CVE-2005-3660: (unk)  
@@ -506,39 +533,27 @@ Outstanding CVEs:
   CVE-2019-15794: (unk)  
   CVE-2019-16089: (unk)  
   CVE-2019-18680: (unk)  
-  CVE-2019-18808: (unk) crypto: ccp - Release all allocated memory if sha type is invalid 
-  CVE-2019-18814: (unk)  
   CVE-2019-19039: (unk) btrfs: Don't submit any btree write bio if the fs has errors 
-  CVE-2019-19054: (unk) media: rc: prevent memory leak in cx23888_ir_probe 
-  CVE-2019-19061: (unk) iio: imu: adis16400: fix memory leak 
-  CVE-2019-19067: (unk) drm/amdgpu: fix multiple memory leaks in acp_hw_init 
   CVE-2019-19070: (unk) spi: gpio: prevent memory leak in spi_gpio_probe 
-  CVE-2019-19072: (unk) tracing: Have error path in predicate_parse() free its allocated memory 
-  CVE-2019-19073: (unk) ath9k_htc: release allocated buffer if timed out 
-  CVE-2019-19074: (unk) ath9k: release allocated buffer if timed out 
-  CVE-2019-19082: (unk) drm/amd/display: prevent memory leak 
   CVE-2019-19377: (unk) btrfs: Don't submit any btree write bio if the fs has errors 
   CVE-2019-19378: (unk)  
   CVE-2019-19448: (unk)  
   CVE-2019-19449: (unk)  
-  CVE-2019-19770: (unk)  
-  CVE-2019-19813: (unk) btrfs: inode: Verify inode mode to avoid NULL pointer dereference 
+  CVE-2019-19770: (unk) blktrace: fix debugfs use after free 
   CVE-2019-19814: (unk)  
   CVE-2019-19815: (unk) f2fs: support swap file w/ DIO 
-  CVE-2019-19816: (unk) btrfs: inode: Verify inode mode to avoid NULL pointer dereference 
   CVE-2019-20794: (unk)  
+  CVE-2019-20908: (unk) efi: Restrict efivar_ssdt_load when the kernel is locked down 
   CVE-2019-2181: (unk) binder: check for overflow when alloc for security context 
-  CVE-2019-3874: (unk) sctp: implement memory accounting on tx path 
   CVE-2019-5489: (unk) Change mincore() to count "mapped" pages rather than "cached" pages 
   CVE-2020-10135: (unk)  
   CVE-2020-10708: (unk)  
-  CVE-2020-10773: (unk)  
   CVE-2020-10774: (unk)  
-  CVE-2020-10781: (unk)  
   CVE-2020-11725: (unk)  
   CVE-2020-12114: (unk) make struct mountpoint bear the dentry reference to mountpoint, not struct mount 
-  CVE-2020-12656: (unk)  
+  CVE-2020-12656: (unk) sunrpc: check that domain table is empty at module unload. 
   CVE-2020-12888: (unk) vfio-pci: Invalidate mmaps and block MMIO access on disabled memory 
   CVE-2020-14304: (unk)  
-  CVE-2020-15393: (unk) usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect 
+  CVE-2020-14314: (unk)  
+  CVE-2020-15780: (unk) ACPI: configfs: Disallow loading ACPI tables when locked down 
   CVE-2020-7053: (unk) drm/i915: Introduce a mutex for file_priv->context_idr 

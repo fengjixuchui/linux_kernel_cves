@@ -62,6 +62,7 @@ CVEs fixed in 5.3.9:
   CVE-2019-19526: d0a11dbe9e938ea9c587d1e1124b0bd36ae1e253 NFC: pn533: fix use-after-free and memleaks
   CVE-2019-19532: 40122a5d25bb7cf21eb8c08cea366e309214b5f7 HID: Fix assumption that devices have inputs
   CVE-2019-19922: 2bd11026299bdcb6d4b751d584913433b6d9b0b6 sched/fair: Fix low cpu usage with high throttling by removing expiration of cpu-local slices
+  CVE-2020-10773: 00ede847a68324b543d1677b86614f9ae1e7f424 s390/cmm: fix information leak in cmm_timeout_handler()
 
 CVEs fixed in 5.3.10:
   CVE-2019-16233: 8669ff2e8537e4eaf0427737c4e95b51daf904fe scsi: qla2xxx: fix a potential NULL pointer dereference
@@ -153,7 +154,7 @@ Outstanding CVEs:
   CVE-2019-18808: (unk) crypto: ccp - Release all allocated memory if sha type is invalid 
   CVE-2019-18809: (unk) media: usb: fix memory leak in af9005_identify_state 
   CVE-2019-18812: (unk) ASoC: SOF: Fix memory leak in sof_dfsentry_write 
-  CVE-2019-18814: (unk)  
+  CVE-2019-18814: (unk) apparmor: Fix use-after-free in aa_audit_rule_init 
   CVE-2019-19037: (unk) ext4: fix ext4_empty_dir() for directories with holes 
   CVE-2019-19039: (unk) btrfs: Don't submit any btree write bio if the fs has errors 
   CVE-2019-19043: (unk) i40e: prevent memory leak in i40e_setup_macvlans 
@@ -182,7 +183,7 @@ Outstanding CVEs:
   CVE-2019-19462: (unk) kernel/relay.c: handle alloc_percpu returning NULL in relay_open 
   CVE-2019-19768: (unk) blktrace: Protect q->blk_trace with RCU 
   CVE-2019-19769: (unk) locks: fix a potential use-after-free problem when wakeup a waiter 
-  CVE-2019-19770: (unk)  
+  CVE-2019-19770: (unk) blktrace: fix debugfs use after free 
   CVE-2019-19814: (unk)  
   CVE-2019-19947: (unk) can: kvaser_usb: kvaser_usb_leaf: Fix some info-leaks to USB devices 
   CVE-2019-19965: (unk) scsi: libsas: stop discovering if oob mode is disconnected 
@@ -190,10 +191,13 @@ Outstanding CVEs:
   CVE-2019-20794: (unk)  
   CVE-2019-20810: (unk) media: go7007: fix a miss of snd_card_free 
   CVE-2019-20812: (unk) af_packet: set defaule value for tmo 
+  CVE-2019-20908: (unk) efi: Restrict efivar_ssdt_load when the kernel is locked down 
   CVE-2019-3016: (unk) x86/kvm: Be careful not to clear KVM_VCPU_FLUSH_TLB bit 
   CVE-2020-0009: (unk) staging: android: ashmem: Disallow ashmem memory from being remapped 
   CVE-2020-0067: (unk) f2fs: fix to avoid memory leakage in f2fs_listxattr 
   CVE-2020-0110: (unk) sched/psi: Fix OOB write when writing 0 bytes to PSI files 
+  CVE-2020-0255: (unk) selinux: properly handle multiple messages in selinux_netlink_send() 
+  CVE-2020-0305: (unk) chardev: Avoid potential use-after-free in 'chrdev_open()' 
   CVE-2020-0543: (unk) x86/cpu: Add 'table' argument to cpu_matches() 
   CVE-2020-10135: (unk)  
   CVE-2020-10690: (unk) ptp: fix the race between the release of ptp_clock and cdev 
@@ -205,9 +209,8 @@ Outstanding CVEs:
   CVE-2020-10766: (unk) x86/speculation: Prevent rogue cross-process SSBD shutdown 
   CVE-2020-10767: (unk) x86/speculation: Avoid force-disabling IBPB based on STIBP and enhanced IBRS. 
   CVE-2020-10768: (unk) x86/speculation: PR_SPEC_FORCE_DISABLE enforcement for indirect branches. 
-  CVE-2020-10773: (unk)  
   CVE-2020-10774: (unk)  
-  CVE-2020-10781: (unk)  
+  CVE-2020-10781: (unk) Revert "zram: convert remaining CLASS_ATTR() to CLASS_ATTR_RO()" 
   CVE-2020-10942: (unk) vhost: Check docket sk_family instead of call getname 
   CVE-2020-11494: (unk) slcan: Don't transmit uninitialized stack data in padding 
   CVE-2020-11565: (unk) mm: mempolicy: require at least one nodeid for MPOL_PREFERRED 
@@ -222,7 +225,7 @@ Outstanding CVEs:
   CVE-2020-12653: (unk) mwifiex: Fix possible buffer overflows in mwifiex_cmd_append_vsie_tlv() 
   CVE-2020-12654: (unk) mwifiex: Fix possible buffer overflows in mwifiex_ret_wmm_get_status() 
   CVE-2020-12655: (unk) xfs: add agf freeblocks verify in xfs_agf_verify 
-  CVE-2020-12656: (unk)  
+  CVE-2020-12656: (unk) sunrpc: check that domain table is empty at module unload. 
   CVE-2020-12657: (unk) block, bfq: fix use-after-free in bfq_idle_slice_timer_body 
   CVE-2020-12659: (unk) xsk: Add missing check on user supplied headroom size 
   CVE-2020-12768: (unk) KVM: SVM: Fix potential memory leak in svm_cpu_init() 
@@ -234,8 +237,12 @@ Outstanding CVEs:
   CVE-2020-13143: (unk) USB: gadget: fix illegal array access in binding with UDC 
   CVE-2020-13974: (unk) vt: keyboard: avoid signed integer overflow in k_ascii 
   CVE-2020-14304: (unk)  
+  CVE-2020-14314: (unk)  
+  CVE-2020-14356: (unk) cgroup: fix cgroup_sk_alloc() for sk_clone_lock() 
   CVE-2020-14416: (unk) can, slip: Protect tty->disc_data in write_wakeup and close with RCU 
   CVE-2020-15393: (unk) usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect 
+  CVE-2020-15780: (unk) ACPI: configfs: Disallow loading ACPI tables when locked down 
+  CVE-2020-16166: (unk) random32: update the net random state on interrupt and activity 
   CVE-2020-2732: (unk) KVM: nVMX: Don't emulate instructions in guest mode 
   CVE-2020-8428: (unk) do_last(): fetch directory ->i_mode and ->i_uid before it's too late 
   CVE-2020-8647: (unk) vgacon: Fix a UAF in vgacon_invert_region 

@@ -18,6 +18,23 @@ CVEs fixed in 5.7.3:
 CVEs fixed in 5.7.6:
   CVE-2020-12771: 4813dd656732207ad9df7738652bbbbde4c7c928 bcache: fix potential deadlock problem in btree_gc_coalesce
 
+CVEs fixed in 5.7.7:
+  CVE-2020-15780: 63897052acc5a97e6cd0ffecda0a8d05aab6f85b ACPI: configfs: Disallow loading ACPI tables when locked down
+
+CVEs fixed in 5.7.8:
+  CVE-2020-15393: 4c424f6d0af716110dd7d78e89afce4d99f16815 usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect
+
+CVEs fixed in 5.7.10:
+  CVE-2020-10781: 8fd782b2376168717dddfbcae0786b47e61777bb Revert "zram: convert remaining CLASS_ATTR() to CLASS_ATTR_RO()"
+  CVE-2020-14356: 26d0bcfcf7150bc7c115f2d3f2f1459e64029b98 cgroup: fix cgroup_sk_alloc() for sk_clone_lock()
+  CVE-2020-15852: 3bbf8195e79707268f4fd072d7575ced0207e4ef x86/ioperm: Fix io bitmap invalidation on Xen PV
+
+CVEs fixed in 5.7.13:
+  CVE-2020-12656: ec25aabaffe687774165ae491cc797d7d8a79454 sunrpc: check that domain table is empty at module unload.
+
+CVEs fixed in 5.7.14:
+  CVE-2020-16166: 378a4d2215334fa4d3c5888a008f8896066bc231 random32: update the net random state on interrupt and activity
+
 Outstanding CVEs:
   CVE-2005-3660: (unk)  
   CVE-2007-3719: (unk)  
@@ -46,20 +63,16 @@ Outstanding CVEs:
   CVE-2019-15902: (unk) unknown 
   CVE-2019-16089: (unk)  
   CVE-2019-18680: (unk)  
-  CVE-2019-18814: (unk)  
   CVE-2019-19378: (unk)  
   CVE-2019-19448: (unk)  
   CVE-2019-19449: (unk)  
-  CVE-2019-19770: (unk)  
+  CVE-2019-19770: (unk) blktrace: fix debugfs use after free 
   CVE-2019-19814: (unk)  
   CVE-2019-20794: (unk)  
   CVE-2020-10135: (unk)  
   CVE-2020-10708: (unk)  
-  CVE-2020-10773: (unk)  
   CVE-2020-10774: (unk)  
-  CVE-2020-10781: (unk)  
   CVE-2020-11725: (unk)  
-  CVE-2020-12656: (unk)  
   CVE-2020-12888: (unk) vfio-pci: Invalidate mmaps and block MMIO access on disabled memory 
   CVE-2020-14304: (unk)  
-  CVE-2020-15393: (unk) usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect 
+  CVE-2020-14314: (unk)  

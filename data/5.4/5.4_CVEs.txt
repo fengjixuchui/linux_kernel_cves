@@ -37,16 +37,16 @@ CVE-2019-18660: Fixed with 5.4.1
 CVE-2019-18680: Fix unknown
 CVE-2019-18683: Fixed with 5.4.1
 CVE-2019-18786: Fixed with 5.4.7
-CVE-2019-18808: Fix not seen in stream
+CVE-2019-18808: Fixed with 5.4.56
 CVE-2019-18809: Fixed with 5.4.9
-CVE-2019-18814: Fix unknown
+CVE-2019-18814: Fixed with 5.4.43
 CVE-2019-19037: Fixed with 5.4.7
 CVE-2019-19039: Fixed with 5.4.33
 CVE-2019-19043: Fixed with 5.4.14
 CVE-2019-19046: Fixed with 5.4.15
 CVE-2019-19050: Fixed with 5.4.3
 CVE-2019-19053: Fixed with 5.4.12
-CVE-2019-19054: Fix not seen in stream
+CVE-2019-19054: Fixed with 5.4.56
 CVE-2019-19056: Fixed with 5.4.12
 CVE-2019-19057: Fixed with 5.4.7
 CVE-2019-19062: Fixed with 5.4.3
@@ -70,7 +70,7 @@ CVE-2019-19602: Fixed with 5.4.2
 CVE-2019-19767: Fixed with 5.4.2
 CVE-2019-19768: Fixed with 5.4.24
 CVE-2019-19769: Fixed with 5.4.28
-CVE-2019-19770: Fix unknown
+CVE-2019-19770: Fix not seen in stream
 CVE-2019-19814: Fix unknown
 CVE-2019-19947: Fixed with 5.4.7
 CVE-2019-19965: Fixed with 5.4.9
@@ -83,6 +83,8 @@ CVE-2020-0009: Fixed with 5.4.23
 CVE-2020-0041: Fixed with 5.4.4
 CVE-2020-0067: Fixed with 5.4.36
 CVE-2020-0110: Fixed with 5.4.23
+CVE-2020-0255: Fixed with 5.4.39
+CVE-2020-0305: Fixed with 5.4.12
 CVE-2020-0543: Fixed with 5.4.46
 CVE-2020-10135: Fix unknown
 CVE-2020-10690: Fixed with 5.4.8
@@ -94,9 +96,8 @@ CVE-2020-10757: Fixed with 5.4.45
 CVE-2020-10766: Fixed with 5.4.47
 CVE-2020-10767: Fixed with 5.4.47
 CVE-2020-10768: Fixed with 5.4.47
-CVE-2020-10773: Fix unknown
 CVE-2020-10774: Fix unknown
-CVE-2020-10781: Fix unknown
+CVE-2020-10781: Fixed with 5.4.53
 CVE-2020-10942: Fixed with 5.4.24
 CVE-2020-11494: Fixed with 5.4.32
 CVE-2020-11565: Fixed with 5.4.31
@@ -111,7 +112,7 @@ CVE-2020-12652: Fixed with 5.4.14
 CVE-2020-12653: Fixed with 5.4.20
 CVE-2020-12654: Fixed with 5.4.20
 CVE-2020-12655: Fixed with 5.4.50
-CVE-2020-12656: Fix unknown
+CVE-2020-12656: Fixed with 5.4.56
 CVE-2020-12657: Fixed with 5.4.33
 CVE-2020-12659: Fixed with 5.4.35
 CVE-2020-12768: Fixed with 5.4.43
@@ -123,8 +124,12 @@ CVE-2020-12888: Fix not seen in stream
 CVE-2020-13143: Fixed with 5.4.42
 CVE-2020-13974: Fixed with 5.4.46
 CVE-2020-14304: Fix unknown
+CVE-2020-14314: Fix unknown
+CVE-2020-14356: Fixed with 5.4.53
 CVE-2020-14416: Fixed with 5.4.16
-CVE-2020-15393: Fix not seen in stream
+CVE-2020-15393: Fixed with 5.4.51
+CVE-2020-15780: Fixed with 5.4.50
+CVE-2020-16166: Fixed with 5.4.57
 CVE-2020-1749: Fixed with 5.4.5
 CVE-2020-2732: Fixed with 5.4.23
 CVE-2020-8428: Fixed with 5.4.16

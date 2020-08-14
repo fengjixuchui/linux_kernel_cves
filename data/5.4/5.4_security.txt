@@ -56,6 +56,7 @@ CVEs fixed in 5.4.12:
   CVE-2019-19066: 448fe0b67c68d36cb45c09444c6b8298130d4c5e scsi: bfa: release allocated memory in case of error
   CVE-2019-19068: e380d974731502d24e0353df36a883fe232c866b rtl8xxxu: prevent leaking urb
   CVE-2019-20636: 39f711b69799c49e0e385494b9b8c0787f51293f Input: add safety guards to input_set_keycode()
+  CVE-2020-0305: 341464390512ed50d5e96cf8f5340dcfbebd837a chardev: Avoid potential use-after-free in 'chrdev_open()'
 
 CVEs fixed in 5.4.13:
   CVE-2019-19064: bf3b4bc7bb03a2b0e67078d42a1d43ce05a14b7b spi: lpspi: fix memory leak in fsl_lpspi_probe
@@ -134,6 +135,7 @@ CVEs fixed in 5.4.36:
   CVE-2020-12464: b48193a7c303272d357b27dd7d72cbf89f7b2d35 USB: core: Fix free-while-in-use bug in the USB S-Glibrary
 
 CVEs fixed in 5.4.39:
+  CVE-2020-0255: eeef0d9fd40df3c033dca68bca8249e5951660ac selinux: properly handle multiple messages in selinux_netlink_send()
   CVE-2020-10751: eeef0d9fd40df3c033dca68bca8249e5951660ac selinux: properly handle multiple messages in selinux_netlink_send()
 
 CVEs fixed in 5.4.42:
@@ -142,6 +144,7 @@ CVEs fixed in 5.4.42:
   CVE-2020-13143: 6bb054f006c3df224cc382f1ebd81b7276dcfb1c USB: gadget: fix illegal array access in binding with UDC
 
 CVEs fixed in 5.4.43:
+  CVE-2019-18814: 97d817b9ef13e2d52a86ea032b0df6a922e0e9df apparmor: Fix use-after-free in aa_audit_rule_init
   CVE-2020-12768: ac46cea606d59be18a6afd4560c48bcca836c44c KVM: SVM: Fix potential memory leak in svm_cpu_init()
 
 CVEs fixed in 5.4.44:
@@ -168,6 +171,22 @@ CVEs fixed in 5.4.49:
 
 CVEs fixed in 5.4.50:
   CVE-2020-12655: ffd40b7962d463daa531a8110e5b708bcb5c6da7 xfs: add agf freeblocks verify in xfs_agf_verify
+  CVE-2020-15780: 824d0b6225f3fa2992704478a8df520537cfcb56 ACPI: configfs: Disallow loading ACPI tables when locked down
+
+CVEs fixed in 5.4.51:
+  CVE-2020-15393: 3dca0a299ff43204a69c9a7a00ce2b3e7ab3088c usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect
+
+CVEs fixed in 5.4.53:
+  CVE-2020-10781: 72648019cd52488716891c2cbb096ad1023ab83e Revert "zram: convert remaining CLASS_ATTR() to CLASS_ATTR_RO()"
+  CVE-2020-14356: 94886c86e833dbc8995202b6c6aaff592b7abd24 cgroup: fix cgroup_sk_alloc() for sk_clone_lock()
+
+CVEs fixed in 5.4.56:
+  CVE-2019-18808: ecfa7fa198fc66731ded5dabefccc8e9e2f3b311 crypto: ccp - Release all allocated memory if sha type is invalid
+  CVE-2019-19054: 84da97713b9112c9529a941b230219b759e6f206 media: rc: prevent memory leak in cx23888_ir_probe
+  CVE-2020-12656: 98cef10fbcca40e70f9f389a4bea42384376376b sunrpc: check that domain table is empty at module unload.
+
+CVEs fixed in 5.4.57:
+  CVE-2020-16166: c15a77bdda2c4f8acaa3e436128630a81f904ae7 random32: update the net random state on interrupt and activity
 
 Outstanding CVEs:
   CVE-2005-3660: (unk)  
@@ -197,22 +216,16 @@ Outstanding CVEs:
   CVE-2019-15902: (unk) unknown 
   CVE-2019-16089: (unk)  
   CVE-2019-18680: (unk)  
-  CVE-2019-18808: (unk) crypto: ccp - Release all allocated memory if sha type is invalid 
-  CVE-2019-18814: (unk)  
-  CVE-2019-19054: (unk) media: rc: prevent memory leak in cx23888_ir_probe 
   CVE-2019-19378: (unk)  
   CVE-2019-19448: (unk)  
   CVE-2019-19449: (unk)  
-  CVE-2019-19770: (unk)  
+  CVE-2019-19770: (unk) blktrace: fix debugfs use after free 
   CVE-2019-19814: (unk)  
   CVE-2019-20794: (unk)  
   CVE-2020-10135: (unk)  
   CVE-2020-10708: (unk)  
-  CVE-2020-10773: (unk)  
   CVE-2020-10774: (unk)  
-  CVE-2020-10781: (unk)  
   CVE-2020-11725: (unk)  
-  CVE-2020-12656: (unk)  
   CVE-2020-12888: (unk) vfio-pci: Invalidate mmaps and block MMIO access on disabled memory 
   CVE-2020-14304: (unk)  
-  CVE-2020-15393: (unk) usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect 
+  CVE-2020-14314: (unk)  
