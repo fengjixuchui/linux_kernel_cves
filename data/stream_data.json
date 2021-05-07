@@ -2535,6 +2535,9 @@
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -4391,6 +4394,9 @@
             }, 
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -6622,6 +6628,9 @@
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -8624,6 +8633,9 @@
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -10604,6 +10616,9 @@
             }, 
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-18955": {
                 "cmt_msg": "userns: also map extents in the reverse map to kernel IDs"
@@ -14160,6 +14175,9 @@
             "CVE-2020-8834": {
                 "cmt_msg": "KVM: PPC: Book3S HV: Factor fake-suspend handling out of kvmppc_save/restore_tm"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2021-29650": {
                 "cmt_msg": "netfilter: x_tables: Use correct memory barriers."
             }, 
@@ -15094,6 +15112,9 @@
             }, 
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-18955": {
                 "cmt_msg": "userns: also map extents in the reverse map to kernel IDs"
@@ -16735,6 +16756,9 @@
             }, 
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-18955": {
                 "cmt_msg": "userns: also map extents in the reverse map to kernel IDs"
@@ -19481,6 +19505,9 @@
             "CVE-2020-36322": {
                 "cmt_msg": "fuse: fix bad inode"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-15780": {
                 "cmt_msg": "ACPI: configfs: Disallow loading ACPI tables when locked down"
             }, 
@@ -20483,6 +20510,9 @@
             }, 
             "CVE-2019-9003": {
                 "cmt_msg": "ipmi: fix use-after-free of user->release_barrier.rda"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2019-18660": {
                 "cmt_msg": "powerpc/book3s64: Fix link stack flush on context switch"
@@ -23527,6 +23557,9 @@
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -26524,6 +26557,9 @@
             }, 
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -31124,6 +31160,9 @@
             "CVE-2019-10220": {
                 "cmt_msg": "Convert filldir[64]() from __put_user() to unsafe_put_user()"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-29568": {
                 "cmt_msg": "xen/xenbus: Allow watches discard events before queueing"
             }, 
@@ -33996,6 +34035,9 @@
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -35935,6 +35977,9 @@
             }, 
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -40701,6 +40746,9 @@
             "CVE-2019-2025": {
                 "cmt_msg": "binder: fix race that allows malicious free of live buffer"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -41831,6 +41879,9 @@
             }, 
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -44179,6 +44230,9 @@
             }, 
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -47483,6 +47537,9 @@
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -49066,6 +49123,9 @@
             "CVE-2021-28971": {
                 "cmt_msg": "perf/x86/intel: Fix a crash caused by zero PEBS status"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2021-3428": {
                 "cmt_msg": "ext4: handle error of ext4_setup_system_zone() on remount"
             }, 
@@ -50330,6 +50390,9 @@
             }, 
             "CVE-2019-19530": {
                 "cmt_msg": "usb: cdc-acm: make sure a refcount is taken early enough"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -52038,6 +52101,9 @@
             "CVE-2020-27675": {
                 "cmt_msg": "xen/events: avoid removing an event channel while handling it"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-28915": {
                 "cmt_msg": "fbcon: Fix global-out-of-bounds read in fbcon_get_font()"
             }, 
@@ -52630,6 +52696,9 @@
             "CVE-2020-27675": {
                 "cmt_msg": "xen/events: avoid removing an event channel while handling it"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2021-28038": {
                 "cmt_msg": "Xen/gnttab: handle p2m update errors on a per-slot basis"
             }, 
@@ -53128,6 +53197,9 @@
             }, 
             "CVE-2021-3178": {
                 "cmt_msg": "nfsd4: readdirplus shouldn't return parent of export"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2021-28038": {
                 "cmt_msg": "Xen/gnttab: handle p2m update errors on a per-slot basis"
@@ -56512,6 +56584,9 @@
             "CVE-2019-2025": {
                 "cmt_msg": "binder: fix race that allows malicious free of live buffer"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2021-29650": {
                 "cmt_msg": "netfilter: x_tables: Use correct memory barriers."
             }, 
@@ -57670,6 +57745,9 @@
             }, 
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
@@ -59945,6 +60023,9 @@
             "CVE-2018-1118": {
                 "cmt_msg": "vhost: fix info leak due to uninitialized memory"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2018-5995": {
                 "cmt_msg": "printk: hash addresses printed with %p"
             }, 
@@ -61869,6 +61950,9 @@
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2019-18660": {
                 "cmt_msg": "powerpc/book3s64: Fix link stack flush on context switch"
             }, 
@@ -63197,6 +63281,9 @@
             }, 
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2019-18660": {
                 "cmt_msg": "powerpc/book3s64: Fix link stack flush on context switch"
@@ -64862,6 +64949,9 @@
             "CVE-2020-0009": {
                 "cmt_msg": "staging: android: ashmem: Disallow ashmem memory from being remapped"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-24394": {
                 "cmt_msg": "nfsd: apply umask on fs without ACL support"
             }, 
@@ -65345,6 +65435,9 @@
             "CVE-2019-20794": {
                 "cmt_msg": ""
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-24504": {
                 "cmt_msg": "ice: create scheduler aggregator node config and move VSIs"
             }, 
@@ -65691,6 +65784,9 @@
             }, 
             "CVE-2019-20794": {
                 "cmt_msg": ""
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2020-24504": {
                 "cmt_msg": "ice: create scheduler aggregator node config and move VSIs"
@@ -66495,6 +66591,9 @@
             }, 
             "CVE-2020-14314": {
                 "cmt_msg": "ext4: fix potential negative array index in do_split()"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2019-18660": {
                 "cmt_msg": "powerpc/book3s64: Fix link stack flush on context switch"
@@ -68290,6 +68389,9 @@
             "CVE-2019-20794": {
                 "cmt_msg": ""
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2020-24504": {
                 "cmt_msg": "ice: create scheduler aggregator node config and move VSIs"
             }, 
@@ -69397,6 +69499,9 @@
             "CVE-2020-0009": {
                 "cmt_msg": "staging: android: ashmem: Disallow ashmem memory from being remapped"
             }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
+            }, 
             "CVE-2021-3428": {
                 "cmt_msg": "ext4: handle error of ext4_setup_system_zone() on remount"
             }, 
@@ -69849,6 +69954,9 @@
             }, 
             "CVE-2020-27675": {
                 "cmt_msg": "xen/events: avoid removing an event channel while handling it"
+            }, 
+            "CVE-2021-31440": {
+                "cmt_msg": "bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds"
             }, 
             "CVE-2020-28915": {
                 "cmt_msg": "fbcon: Fix global-out-of-bounds read in fbcon_get_font()"
