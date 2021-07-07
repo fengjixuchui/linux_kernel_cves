@@ -223,7 +223,6 @@ CVE-2019-0145: Fixed with 4.14.205
 CVE-2019-0146: Fix unknown
 CVE-2019-0147: Fixed with 4.14.205
 CVE-2019-0148: Fixed with 4.14.205
-CVE-2019-0149: Fix unknown
 CVE-2019-0154: Fixed with 4.14.154
 CVE-2019-0155: Fixed with 4.14.154
 CVE-2019-10124: Fixed with 4.14.108
@@ -334,7 +333,7 @@ CVE-2019-17666: Fixed with 4.14.152
 CVE-2019-18282: Fixed with 4.14.153
 CVE-2019-18660: Fixed with 4.14.157
 CVE-2019-18675: Fixed with 4.14.49
-CVE-2019-18680: Fix unknown
+CVE-2019-18680: Fix not seen in stream
 CVE-2019-18683: Fixed with 4.14.157
 CVE-2019-18786: Fixed with 4.14.161
 CVE-2019-18806: Fixed with 4.14.148
@@ -529,10 +528,12 @@ CVE-2020-1749: Fixed with 4.14.181
 CVE-2020-24394: Fixed with 4.14.188
 CVE-2020-24502: Fix unknown
 CVE-2020-24503: Fix unknown
-CVE-2020-24504: Fix not seen in stream
+CVE-2020-24586: Fixed with 4.14.235
+CVE-2020-24587: Fixed with 4.14.235
+CVE-2020-24588: Fixed with 4.14.235
 CVE-2020-25211: Fixed with 4.14.201
 CVE-2020-25212: Fixed with 4.14.194
-CVE-2020-25220: Fix unknown
+CVE-2020-25220: Fix not seen in stream
 CVE-2020-25284: Fixed with 4.14.199
 CVE-2020-25285: Fixed with 4.14.197
 CVE-2020-25641: Fixed with 4.14.197
@@ -544,11 +545,24 @@ CVE-2020-25669: Fixed with 4.14.208
 CVE-2020-25670: Fixed with 4.14.231
 CVE-2020-25671: Fixed with 4.14.231
 CVE-2020-25672: Fixed with 4.14.231
-CVE-2020-25673: Fix unknown
+CVE-2020-25673: Fixed with 4.14.231
 CVE-2020-25704: Fixed with 4.14.207
 CVE-2020-25705: Fixed with 4.14.203
 CVE-2020-26088: Fixed with 4.14.194
+CVE-2020-26139: Fixed with 4.14.235
+CVE-2020-26140: Fix unknown
+CVE-2020-26141: Fix not seen in stream
+CVE-2020-26142: Fix unknown
+CVE-2020-26143: Fix unknown
+CVE-2020-26145: Fix not seen in stream
+CVE-2020-26147: Fixed with 4.14.235
 CVE-2020-26541: Fix not seen in stream
+CVE-2020-26555: Fix unknown
+CVE-2020-26556: Fix unknown
+CVE-2020-26557: Fix unknown
+CVE-2020-26558: Fixed with 4.14.234
+CVE-2020-26559: Fix unknown
+CVE-2020-26560: Fix unknown
 CVE-2020-27066: Fixed with 4.14.175
 CVE-2020-27068: Fixed with 4.14.173
 CVE-2020-2732: Fixed with 4.14.172
@@ -558,8 +572,10 @@ CVE-2020-27777: Fixed with 4.14.204
 CVE-2020-27786: Fixed with 4.14.181
 CVE-2020-27815: Fixed with 4.14.213
 CVE-2020-27820: Fix unknown
+CVE-2020-27825: Fixed with 4.14.218
 CVE-2020-27830: Fixed with 4.14.212
 CVE-2020-27835: Fix not seen in stream
+CVE-2020-28097: Fixed with 4.14.199
 CVE-2020-28374: Fixed with 4.14.215
 CVE-2020-28915: Fixed with 4.14.201
 CVE-2020-28941: Fixed with 4.14.209
@@ -580,6 +596,8 @@ CVE-2020-36158: Fixed with 4.14.214
 CVE-2020-36310: Fix not seen in stream
 CVE-2020-36312: Fixed with 4.14.200
 CVE-2020-36322: Fix not seen in stream
+CVE-2020-36385: Fix not seen in stream
+CVE-2020-36386: Fixed with 4.14.194
 CVE-2020-4788: Fixed with 4.14.208
 CVE-2020-7053: Fix not seen in stream
 CVE-2020-8647: Fixed with 4.14.173
@@ -589,10 +607,15 @@ CVE-2020-8694: Fixed with 4.14.206
 CVE-2020-8832: Fix not seen in stream
 CVE-2020-8834: Fix not seen in stream
 CVE-2020-9383: Fixed with 4.14.172
+CVE-2021-0129: Fixed with 4.14.234
 CVE-2021-0399: Fix unknown
 CVE-2021-0447: Fixed with 4.14.182
 CVE-2021-0448: Fixed with 4.14.201
+CVE-2021-0512: Fixed with 4.14.223
+CVE-2021-0605: Fixed with 4.14.200
+CVE-2021-0606: Fix unknown
 CVE-2021-20292: Fix not seen in stream
+CVE-2021-22543: Fix not seen in stream
 CVE-2021-23133: Fixed with 4.14.232
 CVE-2021-26930: Fixed with 4.14.222
 CVE-2021-26931: Fixed with 4.14.222
@@ -613,11 +636,21 @@ CVE-2021-29155: Fix not seen in stream
 CVE-2021-29264: Fix not seen in stream
 CVE-2021-29265: Fixed with 4.14.226
 CVE-2021-29647: Fixed with 4.14.228
-CVE-2021-29650: Fix not seen in stream
+CVE-2021-29650: Fixed with 4.14.235
 CVE-2021-30002: Fixed with 4.14.224
-CVE-2021-31440: Fix not seen in stream
 CVE-2021-3178: Fixed with 4.14.217
 CVE-2021-31916: Fixed with 4.14.228
+CVE-2021-32078: Fix not seen in stream
+CVE-2021-32399: Fixed with 4.14.233
+CVE-2021-33033: Fixed with 4.14.226
+CVE-2021-33034: Fixed with 4.14.233
 CVE-2021-3348: Fixed with 4.14.219
+CVE-2021-34693: Fixed with 4.14.238
 CVE-2021-3483: Fixed with 4.14.229
 CVE-2021-3506: Fix not seen in stream
+CVE-2021-3542: Fix unknown
+CVE-2021-3564: Fixed with 4.14.236
+CVE-2021-3573: Fixed with 4.14.236
+CVE-2021-3587: Fixed with 4.14.236
+CVE-2021-3609: Fix unknown
+CVE-2021-3612: Fixed with 4.14.223
